@@ -1,0 +1,184 @@
+@media (min-width: 768px) {
+	#app-watch .col-md-3.hide-desktop, .mobile-view { display:none; }
+	#app-watch .col-md-3.hide-mobile { display:table-cell; float:none; }
+}
+
+/*For Floating Side Menu*/
+@media (min-width: 769px) {
+	.info-slider .owl-carousel .owl-stage-outer { overflow: visible; }
+	.info-slider .owl-carousel .owl-stage,.info-slider .owl-carousel .owl-stage img { width: auto !important; }
+	.info-slider .owl-carousel .owl-stage, .info-slider .owl-carousel .owl-stage-outer { position: static;	}
+	.info-slider .owl-nav, .info-slider .owl-dots { display:none; }
+	.info-slider .owl-carousel .owl-stage-outer { -webkit-box-shadow: 0 3px 2px 1px rgba(0,0,0,.4); box-shadow: 0 3px 2px 1px rgba(0,0,0,.4); }
+	.info-slider .owl-carousel.owl-rtl .owl-item { float: none; }
+}
+/*For Floating Side Menu*/
+
+@media (max-width:813px)  {
+	.info-slider { display:none; }
+}
+
+@media only screen and (min-height:0px) and (max-height:500px)  {
+	.banner, .video-container { height:auto !important; }
+	.banner { padding-bottom: 30px; }
+}
+
+@media (max-width:767px)  {
+    .active-screen{ width: 220px; margin: 0 auto; float:none; }
+    .banner { height: auto !important; }
+    #app-watch .col-md-3.hide-mobile { display: none; }
+    .next-screen { position: absolute; bottom: 0px; width:75px; padding:0px; right: 0px; opacity: 0.5; background-repeat: no-repeat; }
+	.hiddencontent { background: #FFFF; width: 30%; top: 0; bottom: 0; right: 0; left: 90px; position: absolute; display:none; }
+	#tabcarousel .item a { font-size: 18px; }
+    #nbo-mobile-banking { padding: 7px 1px 6px 3px; }
+    .digitalguide-container .tab-content .owl-carousel .owl-buttons .owl-next, .digitalguide-container .owl-carousel .owl-buttons .owl-prev { top: 25%; }
+    .owl-item.prevActive .next-screen { right: -40px; background-position: right -40px center; display:none; }
+    .banner .applist { position: inherit; left: inherit; bottom: inherit; margin: 0px auto 20px auto; }
+    .digitalguide-container { padding:25px 0px 0px; }
+    .digitalguide-container .tab-content .owl-carousel .owl-nav .owl-next, .digitalguide-container .tab-content .owl-carousel .owl-nav .owl-prev { left: 50%; transform: translate(-50%,0%); -ms-transform: translate(-50%,0%); }
+    .pausevideo img, .playvideo img { width:60px; }
+    .hide-mobile { display: none; }
+    #nbo-mobile-banking .owl-nav { display: block; }
+    #nbo-mobile-banking .owl-dots { display:none; }
+    #app-watch .owl-nav .owl-prev, #app-watch .owl-nav .owl-next { top:20%; }
+}
+
+@media (max-width: 500px) {
+	.next-screen { right:-20px; }
+}
+
+@media (max-width: 400px) {
+	.next-screen { right:-50px; }
+}
+
+@media (max-width: 340px) {
+	.tab-pane.active .owl-item.active .next-screen { display:none; }
+}
+
+@media (max-height: 500px) {
+	.banner.landscape { height:auto !important; padding-bottom: 40px; }
+	.video-container.landscape { height:auto !important; min-height: 300px; }
+}
+
+@media (max-width:1024px)  {
+	.digitalguide-container h2 { margin-bottom:20px; font-size:30px; }
+    .digitalguide-container .tab-content .owl-carousel .owl-dots { bottom:-31px; }
+    .owl-theme .owl-nav { margin-top: 20px; }
+}
+
+@media (min-width:0px) and (max-width:768px)  {
+    body { font-size: 14px; }
+    .carousel-content p { font-size: 16px; }
+    #nbo-mobile-banking .owl-nav .owl-prev, #nbo-mobile-banking .owl-nav .owl-next { top:45%; }
+    .video-container { height: auto !important; min-height: 240px; }
+    .video-container iframe { width: 100%;  height: 100%;  position: absolute;  left: inherit;  right: inherit;  top: inherit;  bottom: inherit; }
+    .application-container .applist li img { height: 45px; }
+    #app-watch .col-md-9, #app-watch .col-md-3 { display: block; float: left; }
+    #app-watch .owl-buttons .owl-prev, #app-watch .owl-buttons .owl-next { top: 14%; }
+    .mobilebanking-container p { text-align: center; }
+    #mobile-banking-app.owl-carousel { display: block; }
+    #app-watch .col-md-3, #app-watch .col-md-p h2 { text-align: center; }
+    .banner { padding: 4% 0px 4% 0px; background-position: right center; }
+    .carousel-content { padding-top: 5%; text-align: center; }
+    .carousel-content h3 { font-size: 20px; margin: 20px 0px;}
+    .carousel-content h1 { font-size: 35px; margin: 20px 0px; }
+    .mobile-view { margin: 25px 0; }
+    #app-watch .owl-buttons .owl-prev, #app-watch .owl-buttons .owl-next { background-color: transparent; }
+    .digitalguide-container .tab-pane { padding: 0px 0px 20px; }
+    .digitalguide-container .tab-pane .banking-instruction h4 { margin-top:0px; }
+    .digitalguide-container .tab-content .owl-carousel { background-position: center bottom; background-size: auto; }
+    .digitalguide-container .tab-content .owl-carousel .owl-controls .owl-pagination { bottom: -30px; }
+    .digitalguide-container .tab-content .owl-carousel .owl-buttons .owl-next, .digitalguide-container .owl-carousel .owl-buttons .owl-prev {left: 15px; }
+    .banking-instruction { margin-bottom: 80px; text-align: center; max-height: 150px; overflow:auto; }
+    .mobilebanking-container h2, .appwatch-container h2, .digitalguide-container h2 { font-size: 23px; margin: 20px 0 30px; }
+    .mobilebanking-container { padding: 20px 0px; }
+    .mobilebanking-container h3 { font-size: 24px; margin-right: 0; }
+    .digitalguide-container .tab-content .owl-carousel .item img { margin: 0 auto; padding:0px; }
+    .application-container h1 { font-size: 25px; }
+    .application-container p { font-size: 16px; }
+    .tab-pane.active .owl-carousel { height: auto; }
+    .active-screen { height: 496px; background-size: contain; background-repeat: no-repeat; background-position: center center; }
+    /*.digitalguide-container .tab-content .owl-carousel .owl-nav .owl-next, .digitalguide-container .tab-content .owl-carousel .owl-nav .owl-prev { left:15px; }*/
+    .next-screen img, .active-screen img { height: 480px; }
+    #tabcarousel .owl-item { display:none; }
+    #tabcarousel .owl-item.active.center { display:block; }
+}
+
+@media (min-width:750px) and (max-width:900px)  {
+	.banner .col-sm-8 { width: 55%; }
+	.banner .col-sm-4 { width:45%; }
+	.video-container { height: auto !important; min-height: 420px; }
+}
+
+@media (min-width:769px) and (max-width:991px)  {
+    .digitalguide-container .tab-content .owl-carousel .owl-buttons .owl-next, .digitalguide-container .owl-carousel .owl-buttons .owl-prev { top: 60%; }
+}
+
+@media (min-width:992px) and (max-width:1024px)  {
+	#nbo-mobile-banking { height: 416px; margin:0 auto 0 -15px; }
+	#nbo-mobile-banking.owl-carousel .owl-stage-outer{ height: 416px; }
+	#nbo-mobile-banking .item img { height: 400px; }
+	.digitalguide-container { padding:20px 0px 0px; }
+	#nbo-mobile-banking.owl-carousel .owl-stage-outer { background-position: left center; }
+	#nbo-mobile-banking .item { background-position: left 14px center; }
+	#nbo-mobile-banking .owl-dots { left:-40px; }
+}
+
+@media (min-width:1025px) and (max-width:1152px)  {
+	#nbo-mobile-banking { margin:0 auto 0 -15px; }
+	#nbo-mobile-banking.owl-carousel .owl-stage-outer { background-position: left center; }
+	#nbo-mobile-banking .item { background-position: left 14px center; }
+	.digitalguide-container .tab-content .owl-carousel .owl-dots { bottom:-35px; }
+}
+
+@media (min-width:1153px) and (max-width:1280px)  {
+	#nbo-mobile-banking { height: 380px; }
+	#nbo-mobile-banking.owl-carousel .owl-stage-outer{ height: 380px; }
+	#nbo-mobile-banking .item img { height: 365px; }
+	.tab-pane.active .owl-carousel { height: 470px; }
+	.tab-pane.active .owl-carousel .owl-stage-outer { padding-top:9px; }
+	.next-screen, .active-screen { height:453px; background-size:contain; }
+	.digitalguide-container .tab-content .owl-carousel .owl-dots { bottom:-40px; }
+}
+
+@media (min-width:769px) and (max-width:1152px)  {
+	.digitalguide-container .tab-content .owl-carousel .owl-controls .owl-pagination { bottom: -30px; }  
+    .containerMenu { width: 100%; margin: 0 auto; padding: 0 15px; }
+    #tabcarousel .item a { font-size: 18px; }
+    .carousel-content { padding-top: 5%; }
+    #tabcarousel .owl-nav .owl-prev, #tabcarousel .owl-nav .owl-next { top:-6px; }
+}
+
+@media (min-width:769px) and (max-width:990px)  {
+
+}
+
+@media (min-width:769px) and (max-width:1366px)  {
+    .banner { padding: 2% 0px; background-position: center center; }
+    .digitalguide-container .tab-pane { padding: 3% 0px; }
+}
+
+@media (min-width:769px) and (max-width:1280px)  {
+    .carousel-content { padding-top:0%; }
+}
+
+@media (min-width:1281px) and (max-width:1366px)  {
+	#nbo-mobile-banking { height: 420px; }
+	#nbo-mobile-banking.owl-carousel .owl-stage-outer{ height: 420px; }
+	#nbo-mobile-banking .item img { max-height: 403px; }
+    .digitalguide-container h2 { margin: 30px 0; }
+    .digitalguide-container .tab-pane { padding: 3% 0px 5% 0px; }
+    .digitalguide-container .tab-content .owl-carousel .owl-controls .owl-pagination { bottom: -38px; }
+    .tab-pane.active .owl-carousel { height: 470px; }
+	.tab-pane.active .owl-carousel .owl-stage-outer { padding-top:9px; }
+	.next-screen, .active-screen { height:453px; background-size:contain; }
+}
+
+@media (min-width:1400px) and (max-width:1600px)  {
+	.banner { padding: 4% 0% 0% 0%;	}	
+}
+
+@media (min-width:769px) and (max-width:2650px)  {
+    .hide-desktop { display: none; }
+    #app-watch .hide-desktop { display: none; }
+}

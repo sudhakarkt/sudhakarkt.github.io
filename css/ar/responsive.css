@@ -1,0 +1,102 @@
+@media (min-width:0px) and (max-width:330px)  {
+    .digitalguide-container .tab-content .owl-carousel .owl-nav .owl-next, .digitalguide-container .owl-carousel .owl-nav .owl-prev {
+        top: 42%;
+    }
+}
+@media (min-width:331px) and (max-width:450px)  {
+    .digitalguide-container .tab-content .owl-carousel .owl-nav .owl-next, .digitalguide-container .owl-carousel .owl-nav .owl-prev {
+        top: 33%;
+    }
+}
+
+@media (min-width:451px) and (max-width:768px)  {
+    .digitalguide-container .tab-content .owl-carousel .owl-nav .owl-next, .digitalguide-container .owl-carousel .owl-nav .owl-prev {
+        top: 18%;
+    }
+}
+
+@media (max-width:767px)  {
+    .active-screen, .next-screen { display: table-cell; width: 50%; }
+    .hiddencontent { display: block; position: absolute; left: 85%; right: 0; top: 0; bottom: 0; background: transparent; z-index: 9; }
+    span.hiddencontent + img { margin-left: 20px !important; }
+    #tabcarousel .item a { font-size: 18px; }
+}
+
+@media (min-width:0px) and (max-width:768px)  {
+    body { font-size: 14px; }
+    .carousel-content p { font-size: 16px; }
+    .banner { height: auto !important; }
+    .hide-mobile { display: none; }
+    #nbo-mobile-banking .item img { max-height: 350px; }
+    #nbo-mobile-banking .owl-nav { display: block; }
+    .video-container { height: auto; min-height: 500px;  }
+    .video-container iframe { width: 100%;  height: 100%;  position: absolute;  left: inherit;  right: inherit;  top: inherit;  bottom: inherit; }
+    .application-container .applist li img { height: 45px; }
+    #app-watch .col-md-9, #app-watch .col-md-3 { display: block; float: left; }
+    #app-watch .col-md-3.hide-mobile { display: none; }
+    #app-watch .owl-nav .owl-prev, #app-watch .owl-nav .owl-next { top: 14%; }
+    .mobilebanking-container p { text-align: center; }
+    #mobile-banking-app.owl-carousel { display: block; }
+    #app-watch .col-md-3, #app-watch .col-md-p h2 { text-align: center; }
+    .banner { padding: 0% 0px 4% 0px; background-position: right center; }
+    .carousel-content { padding-top: 5%; text-align: center; }
+    .carousel-content h3 { font-size: 20px; margin: 20px 0px;}
+    .carousel-content h1 { font-size: 35px; margin: 20px 0px; }
+    .mobile-view { margin: 25px 0; }
+    /* #app-watch .owl-nav .owl-prev, #app-watch .owl-nav .owl-next { background-color: transparent; } */
+    .digitalguide-container .tab-pane { padding: 40px 0px; }
+    /* .digitalguide-container .tab-content .owl-carousel { background: none; }
+    .digitalguide-container .active-screen{ background-image:url('../images/iphone-x.png'); background-size: contain; background-repeat: no-repeat; background-position: center center; } */
+    .digitalguide-container .tab-content .owl-carousel { background-position: left 15px bottom 0px; }
+    .digitalguide-container .tab-content .owl-carousel .owl-dots { bottom: -30px; }
+    .digitalguide-container .tab-content .owl-carousel .owl-nav .owl-next, .digitalguide-container .owl-carousel .owl-nav .owl-prev {left: 15px; }
+    .banking-instruction { padding-bottom: 80px; text-align: center; }
+    .banner .applist { margin: 0 auto; }
+    .mobilebanking-container h2, .appwatch-container h2, .digitalguide-container h2 { font-size: 23px; margin: 20px 0 30px; }
+    .mobilebanking-container { padding: 20px 0px; }
+    .mobilebanking-container h3 { font-size: 24px; margin-right: 0; }
+    .digitalguide-container .tab-content .owl-carousel .item img { margin: 0 auto 0 0;  }
+    .application-container h1 { font-size: 25px; }
+    .application-container p { font-size: 16px; }
+}
+
+@media (min-width:769px) and (max-width:991px)  {
+    .digitalguide-container .tab-content .owl-carousel .owl-nav .owl-next, .digitalguide-container .owl-carousel .owl-nav .owl-prev {
+        top: 60%;
+    }
+}
+
+@media (min-width:769px) and (max-width:1152px)  {
+    .banner .applist { margin: 30px 0 0 0; }
+    .digitalguide-container .tab-content .owl-carousel .owl-dots { bottom: -30px; }  
+    .containerMenu { width: 100%; margin: 0 auto; padding: 0 15px; }
+    #tabcarousel .item a { font-size: 18px; }
+}
+@media (min-width:769px) and (max-width:990px)  {
+    .carousel-content { padding-left: 15px; }
+}
+
+@media (min-width:769px) and (max-width:1280px)  {
+    .banner { padding: 4% 0px; background-position: center center; }
+    .digitalguide-container .tab-pane { padding: 5% 0px; }
+}
+
+@media (min-width:769px) and (max-width:1366px)  {
+    .banner { padding: 4% 0px; }
+    .banner .applist { margin: 30px 0 0 0; }
+    #nbo-mobile-banking .item img { max-height: 400px; }
+    .digitalguide-container .tab-pane { padding: 5% 0px; }
+}
+
+@media (min-width:1280px) and (max-width:1366px)  {
+    .digitalguide-container h2 { margin: 30px 0; }
+    .digitalguide-container .tab-pane { padding: 3% 0px 5% 0px; }
+    .digitalguide-container .tab-content .owl-carousel .owl-dots { bottom: -38px; }
+}
+
+@media (min-width:769px) and (max-width:2650px)  {
+    .hide-desktop { display: none; }
+    #app-watch .hide-desktop { display: none; }
+}
+
+

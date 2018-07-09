@@ -1,0 +1,154 @@
+@import url("https://fast.fonts.net/t/1.css?apiType=css&projectid=a17d7981-66b9-44c6-b85c-78243b8e4923");
+@font-face {
+    font-family: 'PraxisLTLight';
+    src: url("../fonts/ef2f58db-514f-4b07-b35c-ba9a22e9310e.eot?#iefix");
+    src: url("../fonts/ef2f58db-514f-4b07-b35c-ba9a22e9310e.eot?#iefix") format("eot"), url("../fonts/c07d39a4-7fd2-433f-a170-acda103cc3b0.woff") format("woff"), url("../fonts/02747cc4-50bc-4746-9a6c-29b8a83e0a43.ttf") format("truetype"), url("../fonts/6964fe0c-adfb-4657-9f5c-9bf2d9a121f4.svg#6964fe0c-adfb-4657-9f5c-9bf2d9a121f4") format("svg");
+}
+
+@font-face {
+    font-family: 'PraxisLTRegular';
+    src: url("../fonts/3120e57f-f95f-4d3f-9ea4-ded8d94fc35f.eot?#iefix");
+    src: url("../fonts/3120e57f-f95f-4d3f-9ea4-ded8d94fc35f.eot?#iefix") format("eot"), url("../fonts/9847166c-c88e-4a11-bd8f-ec1e20cd6d8a.woff") format("woff"), url("../fonts/1c5210ba-ea59-4c2a-9325-974777b5994e.ttf") format("truetype"), url("../fonts/15c93ca1-97ac-4554-968f-6a9b6766162c.svg#15c93ca1-97ac-4554-968f-6a9b6766162c") format("svg");
+}
+
+@font-face {
+    src: url("../fonts/9d527974-ea51-44a8-8b63-ba289935dedc.eot?#iefix");
+    src: url("../fonts/9d527974-ea51-44a8-8b63-ba289935dedc.eot?#iefix") format("eot"), url("../fonts/35fd8cac-13fe-421e-a07f-e1f4380e7ab9.woff") format("woff"), url("../fonts/568622dd-08c3-496d-8a64-e5e538389a43.ttf") format("truetype"), url("../fonts/8b6f8778-ed11-4a82-a843-3fe099083845.svg#8b6f8778-ed11-4a82-a843-3fe099083845") format("svg");
+}
+
+@font-face {
+    font-family: 'PraxisLTHeavy';
+    src: url("../fonts/b9d58b64-93d4-4140-aca6-5fcd5f5381e4.eot?#iefix");
+    src: url("../fonts/b9d58b64-93d4-4140-aca6-5fcd5f5381e4.eot?#iefix") format("eot"), url("../fonts/bc241c2a-d040-483a-b710-7d90606503c0.woff") format("woff"), url("../fonts/79934e2b-b72c-49f4-9a92-5acd691a0482.ttf") format("truetype"), url("../fonts/e935fb6d-c094-4915-a13a-e6fbba13eae0.svg#e935fb6d-c094-4915-a13a-e6fbba13eae0") format("svg");
+}
+
+@font-face {
+    font-family: 'PraxisLTBold';
+    src: url("../fonts/6ac2dff4-56e7-453a-b8fa-a836dd9c3195.eot?#iefix");
+    src: url("../fonts/6ac2dff4-56e7-453a-b8fa-a836dd9c3195.eot?#iefix") format("eot"), url("../fonts/cae652a9-0ca9-4bfb-b591-afc5a772ac96.woff") format("woff"), url("../fonts/977dfce2-b45a-4e64-81d0-5d6180ff5f3b.ttf") format("truetype"), url("../fonts/cfd81405-553f-4e35-89bc-c72bcbc47177.svg#cfd81405-553f-4e35-89bc-c72bcbc47177") format("svg");
+}
+
+
+html, body {  height: 100%; color: #383838; }
+body { font-family: 'PraxisLTLight'; font-size: 16px; direction: rtl; }
+.mobilebanking-container h2, .appwatch-container h2, .digitalguide-container h2{ color:#005399; font-family: 'PraxisLTLight'; font-size: 35px; }
+.owl-buttons .owl-prev, .owl-buttons .owl-next {  position: absolute; padding: 5px 15px;  background-color: #FFF; background-repeat: no-repeat; background-position: center center; }
+.hiddencontent { display: none; }
+/*Home Banner Starts Here*/
+.banner { background-size: cover; background-repeat: no-repeat; background-position: top -50px center; padding: 7% 0%; position: relative; }
+/* .banner, .owl-carousel, .owl-wrapper-outer, .owl-wrapper-outer div { height: 100%; } */
+.carousel-content { padding-top: 10%; color: #FFF; }
+.carousel-content h3 { text-transform: uppercase; font-family: 'PraxisLTBold'; font-size: 28px; }
+.carousel-content h1 { font-size: 55px; font-family: 'PraxisLTLight'; }
+.carousel-content p { font-size: 25px; line-height: 1.5; font-family: 'PraxisLTLight'; font-weight: 100; }
+#nbo-mobile-banking { background-image: url(../../images/main-banner-image.png); background-size: contain; background-position: center center; background-repeat: no-repeat; }
+#nbo-mobile-banking .item { text-align: center; }
+#nbo-mobile-banking .item img { max-height: 500px; margin: 0 auto; }
+#nbo-mobile-banking .owl-pagination { z-index: 9; position: absolute;  right: 0; left: 0px; bottom: -30px; text-align: center; }
+#nbo-mobile-banking .owl-pagination { position: absolute;  right: 0; left: 0px; bottom: -35px; }
+#nbo-mobile-banking .owl-page { text-indent: -100em; overflow: hidden; display: inline-block; width: 11px; height: 11px; background: none repeat scroll 0 0 #b2c3dd; opacity: .5; margin-right: 15px; margin-top: 3px; -webkit-border-radius: 10px 10px 10px 10px; border-radius: 10px 10px 10px 10px;
+}
+.mobile-view { padding: 0px; }
+#nbo-mobile-banking .owl-page.active { background: none repeat scroll 0 0 #FFF; opacity: 0.7; }
+.getapp { background-color: #FFF; color: #000; border-radius: 15px; padding: 10px 25px 10px 50px; background-image: url('../../images/icon-download.png'); background-position: left 20px center; background-repeat: no-repeat; display: inline-block; margin-top: 20px; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
+/* .getapp:hover { color: #FFF; background-image: url('../../images/icon-download-hover.png'); background-color: #005399; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; } */
+.getapp:hover { box-shadow: 1px 0px 10px rgba(0,0,0,0.85); transition: all ease 0.5s; -webkit-transition: all ease 0.5s; color: #383838; }
+.banner .applist { margin: 60px 0 0 0; }
+#nbo-mobile-banking .owl-buttons { display: none; }
+#nbo-mobile-banking .owl-buttons .owl-prev, #nbo-mobile-banking .owl-buttons .owl-next { top: 35%; background-color: transparent; text-indent: -999999px; position: absolute; padding: 10px; background-repeat: no-repeat; background-position: center center; }
+#nbo-mobile-banking .owl-buttons .owl-prev.disabled, #nbo-mobile-banking .owl-buttons .owl-next.disabled { opacity: 0.25; }
+#nbo-mobile-banking .owl-buttons .owl-prev{ left: 0px; background-image: url('../../images/white-left-arrow.png'); }
+#nbo-mobile-banking .owl-buttons .owl-next { right: 0px; background-image: url('../../images/white-right-arrow.png'); }
+/*Home Banner Ends Here*/
+
+/*Video Section Starts Here*/
+.video-container { position: relative; height: 100%; }
+.video-container iframe { width: 100%; height: 100%; position: absolute; left: 0; right: 0; top: 0; bottom: 0; }
+.background-video { position: static; left: 0; right: 0; min-width: 100%; min-height: 100%;}
+.video-overlay { background-color: rgba(0, 161, 255, 0.4); position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; height: 100%; z-index: 1; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
+.nobackground { background-color: transparent; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
+.playvideo { display: none; }
+.pausevideo, .playvideo { cursor: pointer; position: absolute; left: 48.3%;  top: 46.5%; }
+/*Video Section  Ends Here*/
+
+/*Mobile Banking Starts Here*/
+.mobilebanking-container { padding: 40px 0px; position: relative; }
+.mobilebanking-container .item { padding: 15px; }
+.mobilebanking-container h3 { font-family: 'PraxisLTLight'; margin-right: 20px; font-size: 26px; }
+/* .mobilebanking-container p { font-size: 14px; } */
+.mobilebanking-container ul { margin:0px; padding-left: 20px; padding-right: 20px; }
+.mobilebanking-container li { line-height: 1.7; }
+.mobilebanking-container .owl-buttons .owl-prev, .mobilebanking-container .owl-buttons .owl-next { opacity: 0.7; text-indent: -999999px; color: #FFF; top: 43%; position: absolute; padding: 5px 15px;  background-color: #FFF; background-repeat: no-repeat; background-position: center center; }
+.mobilebanking-container .owl-buttons .owl-prev.disabled, .mobilebanking-container .owl-buttons .owl-next.disabled { opacity: 0.25; }
+.mobilebanking-container .owl-buttons .owl-prev{ left: 0px; background-image: url('../../images/left-arrow.png'); }
+.mobilebanking-container .owl-buttons .owl-next { right: 0px; background-image: url('../../images/right-arrow.png'); }
+/*Mobile Banking Ends Here*/
+
+/*App Watch Section Starts Here*/
+.appwatch-container { background-color: #f7f7f7; }
+#app-watch .row { display: table; width: 100%; }
+#app-watch .col-md-9, #app-watch .col-md-3 { display: table-cell; float: none; vertical-align: middle; }
+#app-watch .col-md-3 p { margin-bottom: 0px; }
+#app-watch ul { margin: 20px 0px; }
+#app-watch li { line-height: 1.7; font-family: 'PraxisLTLight'; }
+#app-watch .item img { margin: 0 auto; }
+#app-watch .owl-buttons .owl-prev, #app-watch .owl-buttons .owl-next { opacity: 0.7; text-indent: -999999px; color: #FFF; top: 43%; position: absolute; padding: 5px 15px;  background-color: #FFF; background-repeat: no-repeat; background-position: center center; }
+#app-watch .owl-buttons .owl-prev.disabled, #app-watch .owl-buttons .owl-next.disabled { opacity: 0.25; }
+#app-watch .owl-buttons .owl-prev{ left: 0px; background-image: url('../../images/left-arrow.png'); }
+#app-watch .owl-buttons .owl-next { right: 0px; background-image: url('../../images/right-arrow.png'); }
+/*App Watch Section Ends Here*/
+
+/*Digital Guide Starts Here*/
+.digitalguide-container { padding: 40px 0; }
+.digitalguide-container h2 { margin: 0px 0 30px 0; }
+#tabcarousel .item { text-align: center; }
+#tabcarousel .item a { color: #c5c5c5; border-bottom: 2px solid transparent; padding-bottom: 5px; display: inline-block; font-size: 20px; }
+#tabcarousel .item a.active { color: #000; border-bottom: 2px solid #01529b; }
+#tabcarousel .owl-buttons .owl-prev, #tabcarousel .owl-buttons .owl-next { opacity: 0.7; text-indent: -999999px; color: #FFF; top: -5px; position: absolute; padding: 5px 15px; background-color: #FFF; background-repeat: no-repeat; background-position: center center; }
+#tabcarousel .owl-buttons .owl-prev.disabled, #tabcarousel .owl-buttons .owl-next.disabled { opacity: 0.25; }
+#tabcarousel .owl-buttons .owl-prev{ left: 0px; background-image: url('../../images/left-arrow.png'); }
+#tabcarousel .owl-buttons .owl-next { right: 0px; background-image: url('../../images/right-arrow.png'); }
+.digitalguide-container .nav-tabs>li { padding:0px 25px 0px 0px;}
+.digitalguide-container .nav-tabs>li>a { font-size: 16px; color: #d2d2d2; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; margin-right: 0px; padding: 10px 0px; border-bottom: 2px solid transparent; }
+.digitalguide-container .nav-tabs>li>a, .digitalguide-container .nav-tabs>li.active>a { border-left: none; border-right: none; border-top: none; border-radius: 0; }
+.digitalguide-container .nav-tabs>li:hover>a, .digitalguide-container .nav-tabs>li.active>a { transition: all ease 0.5s; -webkit-transition: all ease 0.5s; color: #080808; border-bottom: 2px solid #01529b; background-color: transparent;  }
+.digitalguide-container .tab-pane { padding: 5% 0px; }
+.next-screen img { opacity: 0.5; }
+.opacitynone, .next-screen .opacitynone { opacity: 0; }
+.digitalguide-container .tab-content .owl-carousel .item img { margin: 0 auto; }
+.digitalguide-container .tab-content .owl-carousel { background-image:url('../../images/iphone-x.png'); background-size: contain; background-repeat: no-repeat; background-position: center center; }
+.digitalguide-container .tab-content .owl-carousel .owl-buttons .owl-next, .digitalguide-container .owl-carousel .owl-buttons .owl-prev { top: 45%; }
+.digitalguide-container .tab-content .owl-carousel .owl-buttons .owl-prev { display: none; }
+.digitalguide-container .tab-content .owl-carousel .owl-buttons .owl-next, .digitalguide-container .tab-content .owl-carousel .owl-buttons .owl-prev { left: 0px; padding: 8px 20px 8px 10px; border-radius: 100px; background-position: 11px center; text-align: right; min-width: 90px; background-size: 20%; border: 1px solid #01529b; text-transform: capitalize; }
+.digitalguide-container .tab-content .owl-carousel .owl-buttons .owl-next { background-image: url(../../images/right-arrow.png); }
+.digitalguide-container .tab-content .owl-carousel .owl-buttons .owl-prev { background-image: url(../../images/left-arrow.png); }
+.digitalguide-container .tab-content .owl-carousel .owl-controls .owl-pagination { z-index: 9; position: absolute;  right: 0; left: 0; bottom: -50px; text-align: center; }
+.digitalguide-container .tab-content .owl-carousel .owl-page { text-indent: -100em; overflow: hidden; display: inline-block; width: 11px; height: 11px; background: none repeat scroll 0 0 #b2c3dd; opacity: 0.5; margin-right: 15px; margin-top: 3px; -webkit-border-radius: 10px 10px 10px 10px; border-radius: 10px 10px 10px 10px;
+}
+.digitalguide-container .owl-carousel .owl-page.active { background: none repeat scroll 0 0 #01529b; opacity: 0.7; }
+.banking-instruction h4 { color: #01529b; font-size: 25px; }
+/*Digital Guide Ends Here*/
+
+
+/*App list Starts Here*/
+.application-container { background-color: #01529b; color: #FFF; text-align: center; padding: 50px 0px; }
+.application-container h1 { margin:0px 0px 30px 0px; }
+.application-container p { font-size: 18px; }
+.applist { display: table; text-align: center; padding: 0px; margin: 40px auto 0 auto; }
+.applist li { display: table-cell; padding: 0px 0px; }
+.applist li a { display: block; }
+/*App list Section Ends Here*/
+
+.owl-buttons .disabled { opacity: 0.25; cursor: auto !important; }
+
+
+
+
+
+
+
+
+
+
+/*Arabic Change*/
+.digitalguide-container .tab-content .owl-carousel .owl-buttons .owl-next, .digitalguide-container .tab-content .owl-carousel .owl-buttons .owl-prev { left: inherit; right: 0px; }

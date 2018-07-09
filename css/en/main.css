@@ -1,0 +1,193 @@
+html, body {  height: 100%; color: #383838; }
+body { font-family: 'PraxisLTLight'; font-size: 16px; }
+.mobilebanking-container h2, .appwatch-container h2, .digitalguide-container h2{ color:#005399; font-family: 'PraxisLTLight'; font-size: 35px; }
+.owl-theme .owl-dots [class*=owl-]:focus { outline: none; }
+.owl-theme .owl-nav [class*=owl-] { margin: 0px; }
+.owl-theme .owl-nav [class*=owl-]:hover { background-color: #FFF; }
+.owl-nav .owl-prev, .owl-nav .owl-next { position: absolute; padding: 5px 15px;  background-color: #FFF; background-repeat: no-repeat; background-position: center center; }
+.owl-nav .owl-prev:focus, .owl-nav .owl-next:focus { outline: none; }
+.hiddencontent { display: none; }
+
+/*Home Banner Starts Here*/
+.banner { background-size: cover; background-repeat: no-repeat; background-position: top 0px center; padding: 7% 0% 3% 0; position: relative; }
+.carousel-content { padding-top: 10%; color: #FFF; }
+.carousel-content h3 { text-transform: uppercase; font-family: 'PraxisLTBold'; font-size: 28px; }
+.carousel-content h1 { font-size: 55px; font-family: 'PraxisLTLight'; }
+.carousel-content p { font-size: 25px; line-height: 1.5; font-family: 'PraxisLTLight'; font-weight: 100; }
+#nbo-mobile-banking { width: 249px; height: 496px; margin: 0 auto; }
+#nbo-mobile-banking.owl-carousel .owl-stage-outer{ margin: 0 auto; background-image: url(../../images/main-banner-image.png); background-size: contain; background-position: center center; background-repeat: no-repeat; width: 249px; height: 496px; }
+#nbo-mobile-banking.owl-carousel .owl-stage-outer .owl-stage{ padding-top: 8px; }
+#nbo-mobile-banking .item { background-position: center center; background-repeat: no-repeat; background-size: contain; border-radius: 50px; }
+#nbo-mobile-banking .item img { border-radius: 25px; }
+#nbo-mobile-banking .owl-dots { z-index: 9; position: absolute;  right: 0; left: 0px; bottom: -30px; text-align: center; }
+#nbo-mobile-banking .owl-dots { position: absolute;  right: 0; left: 0px; bottom: -35px; }
+/* #nbo-mobile-banking .owl-page { text-indent: -100em; overflow: hidden; display: inline-block; width: 11px; height: 11px; background: none repeat scroll 0 0 #b2c3dd; opacity: .5; margin-right: 15px; margin-top: 3px; -webkit-border-radius: 10px 10px 10px 10px; border-radius: 10px 10px 10px 10px; } */
+#nbo-mobile-banking .owl-page { text-indent: -100em; overflow: hidden; display: inline-block; width: 11px; height: 11px; background: none repeat scroll 0 0 #b2c3dd; opacity: .5; margin-right: 15px; margin-top: 3px; -webkit-border-radius: 10px 10px 10px 10px; behavior: url('../../js/PIE.htc'); border-radius: 10px 10px 10px 10px;
+}
+
+
+.mobile-view { padding: 0px; }
+#nbo-mobile-banking .owl-page.active { background: none repeat scroll 0 0 #FFF; opacity: 0.7; }
+.getapp { /*background-color: #FFF;*/ color: #000; border-radius: 16px;  font-size: 15px; padding: 10px 25px 10px 50px; background: #ffffff url('../../images/icon-download.png') no-repeat; background-position: left 20px center; background-repeat: no-repeat; display: inline-block; margin-top: 20px; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
+/* .getapp:hover { color: #FFF; background-image: url('../../images/icon-download-hover.png'); background-color: #005399; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; } */
+.getapp:hover { box-shadow: 1px 0px 10px rgba(0,0,0,0.85); transition: all ease 0.5s; -webkit-transition: all ease 0.5s; color: #383838; }
+.banner .applist { position:absolute; left:inherit; bottom:-25px; margin:0px; }
+#nbo-mobile-banking .owl-nav { display: none; }
+#nbo-mobile-banking .owl-nav .owl-prev, #nbo-mobile-banking .owl-nav .owl-next { top: 35%; background-color: transparent; text-indent: -999999px; position: absolute; padding: 10px !important; background-repeat: no-repeat; background-position: center center; }
+#nbo-mobile-banking .owl-nav .owl-prev.disabled, #nbo-mobile-banking .owl-nav .owl-next.disabled { opacity: 0.25; }
+#nbo-mobile-banking .owl-nav .owl-prev{ left: -35px; background-image: url('../../images/white-left-arrow.png'); }
+#nbo-mobile-banking .owl-nav .owl-next { right: -35px; background-image: url('../../images/white-right-arrow.png'); }
+#nbo-mobile-banking.owl-theme .owl-dots .owl-dot span { background-color: #929292; }
+#nbo-mobile-banking.owl-theme .owl-dots .owl-dot.active span { background-color: #FFF; }
+.iphone-wrapper { position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; background-image: url('../../images/iphonex-frame.png'); background-position: center center; background-repeat: no-repeat;  }
+/*Home Banner Ends Here*/
+
+/*Video Section Starts Here*/
+.video-container { position: relative; height: 100%; }
+.video-container iframe { width: 100%; height: 100%; position: absolute; left: 0; right: 0; top: 0; bottom: 0; }
+.background-video { position: static; left: 0; right: 0; min-width: 100%; min-height: 100%;}
+.video-overlay { background-color: rgba(0, 161, 255, 0.4); position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; height: 100%; z-index: 1; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
+.nobackground { background-color: transparent; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; }
+.pausevideo { display: none; }
+.pausevideo, .playvideo { cursor: pointer; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); }
+.pausevideo img, .playvideo img { width: 80px; }
+.ieplayer{display: none;}
+.ie8 .ieplayer, .ie9 .ieplayer {display: block;}
+.ie8 .cotainer, .ie9 .cotainer{display: none;}
+/* @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+.video-overlay { background: none; position: static;}
+} */
+/*Video Section  Ends Here*/
+
+/*Mobile Banking Starts Here*/
+.mobilebanking-container { padding: 40px 0px; position: relative; }
+.mobilebanking-container .item { padding: 15px; }
+.mobilebanking-container .item img { max-width: 100%; width: auto; margin: 0 auto; }
+.mobilebanking-container h3 { font-family: 'PraxisLTLight'; margin-right: 20px; font-size: 26px; }
+.mobilebanking-container ul { margin:0px; padding-left: 20px; padding-right: 20px; }
+.mobilebanking-container li { line-height: 1.7; }
+.mobilebanking-container .owl-carousel  .owl-nav .owl-prev, .mobilebanking-container .owl-carousel .owl-nav .owl-next { border: none; opacity: 0.7; text-indent: -999999px; color: #FFF; top: 33%; position: absolute; padding: 5px 10px !important;  background-color: #FFF; background-repeat: no-repeat; background-position: center center; }
+.mobilebanking-container .owl-nav .owl-prev.disabled, .mobilebanking-container .owl-nav .owl-next.disabled { opacity: 0.25; }
+.mobilebanking-container .owl-carousel .owl-nav .owl-prev{ left: 0px; background-image: url('../../images/left-arrow.png'); }
+.mobilebanking-container .owl-carousel .owl-nav .owl-next { right: 0px; background-image: url('../../images/right-arrow.png'); }
+/* .appwatch-container .owl-carousel .owl-wrapper-outer{position: static;}
+.appwatch-container .owl-carousel{position: static;} */
+/*Mobile Banking Ends Here*/
+
+/*App Watch Section Starts Here*/
+.appwatch-container { background-color: #f7f7f7; position: relative; }
+#app-watch .row { display: table; width: 100%; }
+#app-watch .col-md-9, #app-watch .col-md-3 { display: table-cell; float: none; vertical-align: middle; }
+#app-watch .col-md-3 p { margin-bottom: 0px; }
+#app-watch ul { margin: 20px 0px; }
+#app-watch li { line-height: 1.7; font-family: 'PraxisLTLight'; list-style: disc; }
+#app-watch.owl-carousel .item a { display: inline-block; }
+#app-watch .item img { margin: 0 auto; width: auto; max-width: 100%; }
+#app-watch .owl-nav { margin:0px; }
+#app-watch .owl-nav .owl-prev, #app-watch .owl-nav .owl-next { opacity: 0.7; text-indent: -999999px; background-color: #FFF; color: #FFF; background-size: contain; top: 43%; position: absolute; padding: 10px 15px !important;  background-color: #FFF; background-repeat: no-repeat; background-position: center center; }
+#app-watch .owl-nav .owl-prev.disabled, #app-watch .owl-nav .owl-next.disabled { opacity: 0.25; }
+#app-watch .owl-nav .owl-prev{ left: 0px; background-image: url('../../images/left-arrow.png'); }
+#app-watch .owl-nav .owl-next { right: 0px; background-image: url('../../images/right-arrow.png'); }
+/*App Watch Section Ends Here*/
+
+/*Digital Guide Starts Here*/
+.digitalguide-container { padding: 40px 0; }
+.digitalguide-container h2 { margin: 0px 0 30px 0; }
+#tabcarousel .item { text-align: center; }
+#tabcarousel .item a { color: #c5c5c5; border-bottom: 2px solid transparent; padding-bottom: 5px; display: block; font-size: 20px; }
+#tabcarousel .owl-item.active.center .item a { color: #000;  }
+#tabcarousel .owl-item.active.center .item a span { color: #000; border-bottom: 2px solid #01529b; }
+#tabcarousel .owl-nav .owl-prev, #tabcarousel .owl-nav .owl-next { opacity: 0.7; text-indent: -999999px; color: #FFF; top: -3px; position: absolute; width:30px; height:35px; background-color: #FFF; background-repeat: no-repeat; background-position: center center; }
+#tabcarousel .owl-nav .owl-prev.disabled, #tabcarousel .owl-nav .owl-next.disabled { opacity: 0.25; }
+#tabcarousel .owl-nav .owl-prev { left: 0px; background-image: url('../../images/left-arrow.png'); }
+#tabcarousel .owl-nav .owl-next { right: 0px; background-image: url('../../images/right-arrow.png'); }
+#tabcarousel .owl-nav .owl-prev span, #tabcarousel .owl-nav .owl-next span  { position: absolute; left: 0; top: 0; right: 0; bottom: 0; }
+#tabcarousel .owl-nav .owl-prev.disabled span, #tabcarousel .owl-nav .owl-next.disabled span { display:none; }
+.digitalguide-container .nav-tabs>li { padding:0px 25px 0px 0px;}
+.digitalguide-container .nav-tabs>li>a { font-size: 16px; color: #d2d2d2; transition: all ease 0.5s; -webkit-transition: all ease 0.5s; margin-right: 0px; padding: 10px 0px; border-bottom: 2px solid transparent; }
+.digitalguide-container .nav-tabs>li>a, .digitalguide-container .nav-tabs>li.active>a { border-left: none; border-right: none; border-top: none; border-radius: 0; }
+.digitalguide-container .nav-tabs>li:hover>a, .digitalguide-container .nav-tabs>li.active>a { transition: all ease 0.5s; -webkit-transition: all ease 0.5s; color: #080808; border-bottom: 2px solid #01529b; background-color: transparent;  }
+.digitalguide-container .tab-pane { padding: 5% 0px; overflow:hidden; position:relative; }
+.next-screen { opacity:0.5; }
+.next-screen, .active-screen { background-repeat: no-repeat; background-position: center center; }
+.tab-pane.active .owl-carousel { height: 496px; }
+.next-screen img { opacity: 0.5; }
+.opacitynone, .next-screen .opacitynone { opacity: 0; }
+.digitalguide-container .tab-content .owl-carousel .item img { margin: 0 auto; }
+.tab-pane.active .owl-carousel .owl-stage-outer { padding-top:9px; }
+.digitalguide-container .tab-content .owl-carousel { background-image:url('../../images/iphone-x.png'); background-size: contain; background-repeat: no-repeat; background-position: center center; }
+.digitalguide-container .tab-content .owl-carousel .owl-nav .owl-next, .digitalguide-container .owl-carousel .owl-nav .owl-prev { top: 45%; }
+.digitalguide-container .tab-content .owl-carousel .owl-nav .owl-prev { display: none; }
+.digitalguide-container .tab-content .owl-carousel .owl-nav .owl-next, .digitalguide-container .tab-content .owl-carousel .owl-nav .owl-prev { left: 0px; padding: 8px 20px 8px 10px !important; border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px; background-position: 11px center; text-align: right; min-width: 90px; background-size: 20%; border: 1px solid #01529b; text-transform: capitalize; color: #383838; /*background-size: cover;*/
+  behavior: url('../../js/PIE.htc');  }
+.digitalguide-container .tab-content .owl-carousel .owl-nav .owl-next { background-image: url(../../images/right-arrow.png); background-repeat:no-repeat; /*background: url(../../images/right-arrow-angle.png) no-repeat;*/ background-position: 12px center;}
+.digitalguide-container .tab-content .owl-carousel .owl-nav .owl-prev { background-image: url(../../images/left-arrow.png); background-repeat:no-repeat; /*background: url(../../images/left-arrow-angle.png) no-repeat;*/ background-position: 12px center; }
+.digitalguide-container .tab-content .owl-carousel .owl-dots { z-index: 9; position: absolute;  right: 0; left: 0; bottom: -50px; text-align: center; }
+.digitalguide-container .tab-content .owl-carousel .owl-page { text-indent: -100em; overflow: hidden; display: inline-block; width: 11px; height: 11px; background: none repeat scroll 0 0 #b2c3dd; opacity: 0.5; margin-right: 15px; margin-top: 3px; behavior: url('../../js/PIE.htc'); -webkit-border-radius: 10px 10px 10px 10px; border-radius: 10px 10px 10px 10px;
+}
+.digitalguide-container .owl-carousel .owl-page.active { background: none repeat scroll 0 0 #01529b; opacity: 0.7; }
+.banking-instruction h4 { color: #01529b; font-size: 25px; }
+/*Digital Guide Ends Here*/
+
+/*App list Starts Here*/
+.application-container { background-color: #01529b; color: #FFF; text-align: center; padding: 50px 0px; }
+.application-container h1 { margin:0px 0px 30px 0px; }
+.application-container p { font-size: 18px; }
+.applist { display: table; text-align: center; padding: 0px; margin: 40px auto 0 auto; }
+.applist li { display: table-cell; padding: 0px 0px; }
+.applist li a { display: block; }
+/*App list Section Ends Here*/
+
+.owl-nav .disabled { opacity: 0.25; cursor: auto !important; }
+.owl-theme .owl-dots .owl-dot span { margin:5px 5px; }
+.image-container img { max-width:100%; max-height: 220px; min-height: 220px;}
+.banking-instruction { max-height: 420px; overflow: auto;}
+.appwatch-container .owl-carousel { padding: 0 45px; }
+.banking-instruction li { list-style-type: disc; }
+.non-center .owl-stage { transform: none!important; }
+.non-center .owl-nav.disabled { display: block!important; }
+.nav-enable .owl-nav { display: block!important; }
+.appwatch-container .container { padding-left: 0; padding-right: 0; }
+.tab-pane.active .owl-item .next-screen { display: none; }
+.tab-pane.active .owl-item.active .next-screen { display: block; }
+.tab-pane.active .owl-item .next-screen.opacitynone { display:none; }
+#tabcarousel .owl-item.active.center .item a:hover, #tabcarousel .owl-item.active.center .item a:active, #tabcarousel .owl-item.active.center .item a:focus { outline:none; }
+.backgroundtop { background-color: #FFF; position: absolute; left: 0; right: 0; top:0px; bottom: 0; z-index:4; display:none; }
+
+/*English Overwrite CSS Starts Here*/
+.owl-carousel .owl-item img { width: auto; }
+
+
+
+
+ul.list-styled-footer li {
+  background: url(../../images/footer-right-arrow.png) no-repeat scroll left 6px transparent;
+  padding-bottom: 4px;
+  padding-left: 16px;
+}
+
+ul.list-styled-footer li.last {
+  background: 0;
+  padding-bottom: 9px;
+  padding-left: 0;
+}
+
+ul.list-styled-footer li.last a {
+  text-decoration: underline;
+}
+
+ul.list-styled-footer li a {
+  color: #3c3c3c;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+ul.list-styled-footer li a:hover {
+  text-decoration: underline;
+}
+
+
+.small-height .navbar-header a img {
+  width: 70%;
+  margin-top: 3px;
+}
